@@ -1,0 +1,53 @@
+baseURL = "https://nycu-creativity.github.io"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Computational Creativity Lab"
+theme = "anubis2"
+
+[pagination]
+pagerSize = 5
+
+[params.author]
+name = "Computational Creativity Lab"
+location = "Hsinchu, Taiwan"
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 2
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 3
+
+[[menu.main]]
+name = "Archive"
+identifier = "archive"
+url = "/posts/"
+weight = 4
+
+[markup.goldmark.renderer]
+unsafe = true # Enable unsafe mode to have a better experience
+
+[markup.highlight]
+style              = 'catppuccin-frappe' # Find more style at here: https://swapoff.org/chroma/playground/
+
+[params.anubis2]
+    hideFooterAttribution = false # hide "Powered by Hugo, theme" in footer
+
+    # Leave all parameters empty to use the default values.
+
+
+[languages]
+[languages.en]
+languageName = "English"
+
